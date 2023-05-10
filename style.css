@@ -1,0 +1,353 @@
+.main-container {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.box {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.inner-box {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  border: 1px solid yellow;
+  flex-wrap: wrap;
+}
+
+
+.box-1 {
+  height: 67px;
+  background-color: #3a2e2f;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: space-around;
+
+}
+
+.items1{
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border: 1px solid yellow;
+}
+
+.box-2 {
+  background-image: url(podklady/photos/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 804px;
+  font-size: 48px;
+  
+}
+
+.items2 {
+  text-align: right;
+  position: absolute;
+  bottom: 10%;
+  right: 0;
+  display: flex;
+  height: 400px;
+  width: auto;
+  border: 1px solid yellow;
+}
+
+.box-3 {
+  height: 510px;
+  background-color: #f2f2f2;
+  wrap
+}
+
+.items3 {
+  display: flex;
+  justify-content: center;
+  color: black;
+  border: 1px solid yellow;
+  flex-direction: column;
+  flex: 1;
+
+}
+
+.items3 p {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  max-height: 80%;
+  margin-right: 5%;
+  font-size: 16px;
+}
+
+.items3 img {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: 5%;
+  
+}
+
+h3 {
+  font-size: 34px;
+}
+
+
+
+.box-4 {
+  height: 591px;
+  background-color: #644b4f;
+  display: flex;
+}
+
+
+.items4 {
+  box-sizing: border-box;
+  display: flex;
+  font-size: 18px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.items4-long {
+  top: 30px;
+  width: 100%;
+  height: 50%;
+  font-size: 18px;
+  border: 1px solid yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.items4-short {
+  width: 10%;
+  font-size: 24px;
+  height: 20%;
+  border: 1px solid yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.items4-short img{
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+}
+
+
+.box-5 {
+  height: 806px;
+  background-color: white;
+  flex-wrap: wrap;
+
+}
+
+.item5 {
+  width: 33.33%;
+  padding: 1%;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border: 1px solid yellow;
+}
+
+.text {
+  display: flex;
+  font-size: 36px;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background: #F2F2F2;
+  border-radius: 5px;
+  border: 1px solid yellow;
+}
+
+.item5 img{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px; 
+  object-fit:cover
+  border: 1px solid yellow;
+}
+
+
+
+
+
+
+
+
+
+.box-6 {
+  height: 400px;
+  background-color: green;
+}
+.box-7 {
+  height: 700px;
+  background-color: #f2f2f2;
+}
+
+.box-8 {
+  height: 840px;
+  background-color: green;
+}
+
+.box-9 {
+  height: 115px;
+  background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.button {
+  position: relative;
+  flex: 1;
+  box-sizing: border-box;
+  height: 67px;
+  text-align: center;
+}
+
+@media (max-width: 1007px) {
+  .button {
+    display: none;
+  }
+}
+
+.library {
+  display: none;
+}
+
+@media (max-width: 1007px) {
+  .library {
+    display: flex;
+    justify-content: right;
+    position: relative;
+  }
+}
+
+.main-photo {
+  background-image: url(podklady/photos/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 804px;
+  position: relative;
+  text-align: right;
+  font-size: 48px;
+}
+
+
+h1 {
+  margin: 20px;
+  position: absolute;
+  bottom: 75px;
+  right: 284px;
+}
+
+
+.about-us {
+  display: flex;
+
+  height: 510px;
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+.item-a {
+  flex-wrap: wrap;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  width: 310px;
+  height: 423px;
+}
+
+.what-we-do {
+  height: 591px;
+  background-color: #644b4f;
+  position: relative;
+}
+
+.our-trips {
+   provizorní height 
+  height: 806px;
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+.what-do-you {
+  height: 400px;
+  background-color: green;
+  position: relative;
+}
+
+.reviews {
+  provizorní height 
+  height: 700px;
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+.photos {
+  display: flex;
+
+  max-height: 840px;
+  background-color: green;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fofo {
+  display: flex;
+  max-width: 720px;
+  max-height: 420px;
+  object-fit: cover;
+}
+
+.contact {
+  height: 115px;
+  background-color: blue;
+  position: relative;
+  display: flex;
+}
+/*
